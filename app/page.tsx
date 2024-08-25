@@ -80,6 +80,17 @@ export default function Home() {
             Fully-typed real-time API with NoSQL database.
           </p>
         </a>
+        <a
+        href="/sandbox"
+          className={styles.card}
+          target="_blank"
+          rel="noopener noreferrer">
+            <h2>
+            Sandbox <span>-&gt;</span>
+          </h2>
+          <p>Review documentation for Amplify's code-first DX (Gen 2).</p>
+        </a>
+
       </div>
     </main>
   )
